@@ -114,6 +114,11 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-intl-idn" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/psr/cache" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

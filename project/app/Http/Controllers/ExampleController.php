@@ -2,17 +2,12 @@
 
 namespace App\Http\Controllers;
 
-class ExampleController extends Controller
-{
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        //
-    }
+use App\TreeLayerStructure\Entities\User\UserService;
 
-    //
+class ExampleController
+{
+    public function handler(UserService $service)
+    {
+        return $service->getList();
+    }
 }

@@ -47,7 +47,6 @@ $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
     App\Console\Kernel::class
 );
-
 /*
 |--------------------------------------------------------------------------
 | Register Config Files
@@ -94,6 +93,8 @@ $app->configure('app');
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
+$app->register(\App\TreeLayerStructure\Base\Providers\DBConnectionProvider::class);
+$app->register(\App\TreeLayerStructure\Base\Providers\StorageServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------

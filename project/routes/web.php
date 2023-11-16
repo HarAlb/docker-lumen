@@ -13,6 +13,5 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+$router->get('/users', 'ExampleController@handler');
+$router->get('/tests', 'ExampleController@test');
